@@ -1,7 +1,6 @@
 require 'pry'
 
- def reformat_languages(languages)	def reformat_languages(languages)
-  # your code here	  new_hash = {} 
+ def reformat_languages(languages)	 
    languages.each do |style, description|
     description.each do |lang, type|
       if new_hash.has_key?(lang)
